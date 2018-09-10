@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-CARD</title>
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Gloria+Hallelujah|Monoton|Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='summary-container'></div>
+    </div>
+    <main class='homepage-container'>
+        <img class='back-arrow' src="imgs/back-arrow.png" alt="Icon made by <a href="https://www.flaticon.com/authors/google"">
+        <div id='starting-page'>
+            <nav class='navbar'>
+                <h1 class='navbar-heading'>E-card</h1>
+            </nav>
+            <div class='button' id='play-button'>PLAY</div>
+            <div class='button' id='rules-button'>RULES</div>
+            <div class='button' id='about-us'>ABOUT</div>
+        </div>
+
+        <div id='about'>
+            <h1 class='about-heading'>About me</h1>
+            <p class='about-desc'>Hello! I'm IdleSolution, aspiring web developer. Kaiji is my favorite series by far and I decided to give this project a try. I hope you will have a little fun with it :)</p>
+            <h2 class='about-find-heading'>You can find me here:</h2>
+            <div class='find'>
+                <a class='find-a' href="https://github.com/IdleSolution" target='_blank'>Github</a>
+                <a href="https://discord.gg/xKPwARX" target='_blank' class='find-a'>Discord</a>
+                <a href="https://www.facebook.com/profile.php?id=100013232552212" target='_blank' class='find-a'>Facebook</a>
+            </div>
+        </div>
+
+
+        <div id='rules'>
+            <h1 class='about-heading'>Rules</h1>
+            <p>Each player has 5 cards, 4 Citizens and either Slave or Emperor.</p>
+                    
+            <p>The Citizen card represents the common man, and cannot defeat the Emperor who sits at the top. It can, however, defeat the Slave, who resides at the very bottom of the system. Two citizen against each other results in a tie.</p>
+                    
+            <p>The Emperor represents the one at the top of society. This card can defeat the citizen, but will lose to the Slave.</p>
+                    
+            <p>The Slave is presented as the one at the very bottom of society. Seeing as how it has nothing to lose, it can overthrow the Emperor in one last attempt at revenge.</p>
+                    
+            <p>Winning as the emperor grants you one point, while winning as the slave grants you three.</p>
+                    
+            <p>There are 2 rounds, with each round lasting 3 turns. Each player will play once as an emperor and once as a slave. The one who managed to get more points will win.</p>
+        </div>
+    </main>
+
+    <aside class='game-container'>
+        <div class='game-board'>
+            <img class='back-from-game' src="imgs/back-arrow.png" alt="Icon made by <a href="https://www.flaticon.com/authors/google"">
+            <div class='opponent-card-deck'>
+                
+                <div class="card-container card-opponent-container" id='first-opponent-card'>
+                    <div class="card-front">
+                        <img class='opponent-card' src="imgs/cards/back.jpg" alt="">                        
+                    </div>
+ 
+                    <div class="card-back">
+                        
+                    </div>
+ 
+                </div>
+
+                <div class="card-container card-opponent-container" id='second-opponent-card'>
+                    <div class="card-front">
+                        <img class='opponent-card' src="imgs/cards/back.jpg" alt="">                        
+                    </div>
+ 
+                    <div class="card-back">
+                        
+                    </div>
+ 
+                </div>
+
+                <div class="card-container card-opponent-container" id='third-opponent-card'>
+                    <div class="card-front">
+                        <img class='opponent-card' src="imgs/cards/back.jpg" alt="">                        
+                    </div>
+ 
+                    <div class="card-back">
+                        
+                    </div>
+ 
+                </div>
+
+                <div class="card-container card-opponent-container" id='fourth-opponent-card'>
+                    <div class="card-front">
+                        <img class='opponent-card' src="imgs/cards/back.jpg" alt="">                        
+                    </div>
+ 
+                    <div class="card-back">
+                        
+                    </div>
+ 
+                </div>
+
+                <div class="card-container card-opponent-container" id='fifth-opponent-card'>
+                    <div class="card-front">
+                        <img class='opponent-card' src="imgs/cards/back.jpg" alt="">                        
+                    </div>
+ 
+                    <div class="card-back">
+                        
+                    </div>
+ 
+                </div>
+                
+            </div>
+            <div class='game-score'>
+                <div class="alert"></div>
+                <div class="points">
+                    <p id='your-score'>YOU: 0</p>
+                    <p id='separation-score'>||</p>
+                    <p id='opponent-score'>OPPONENT: 0</p>
+                </div>
+            </div>
+            <div class='turn-button'>
+                END TURN
+            </div>
+            <div class='card-deck'>
+                <div class="card-container" id='citizen'>
+                    <div class="card-front">
+                        <img data-num="1" data-name="citizen" class='card citizen' src="imgs/cards/citizen.jpg" alt="">
+                    </div>
+ 
+                    <div class="card-back">
+                        <img data-num="1" class='card back' src="imgs/cards/back.jpg" alt="">
+                    </div>
+ 
+                </div>
+ 
+                <div class="card-container" id='citizen'>
+                    <div class="card-front">
+                        <img data-num="2" data-name="citizen" class='card citizen' src="imgs/cards/citizen.jpg" alt="">                
+                    </div>
+ 
+                    <div class="card-back">
+                        <img data-num="2" class='card back' src="imgs/cards/back.jpg" alt="">
+                    </div>
+ 
+                </div>
+ 
+                <div class="card-container" id='citizen'>
+                    <div class="card-front">
+                        <img data-num="3" data-name="citizen" class='card citizen' src="imgs/cards/citizen.jpg" alt="">
+                    </div>
+ 
+                    <div class="card-back" id='citizen'>
+                        <img data-num="3" class='card back' src="imgs/cards/back.jpg" alt="">
+                    </div>
+ 
+                </div>
+ 
+                <div class="card-container" id='citizen'>
+                    <div class="card-front">
+                        <img data-num="4" data-name="citizen" class='card citizen' src="imgs/cards/citizen.jpg" alt="">
+                    </div>
+ 
+                    <div class="card-back">
+                        <img data-num="4" class='card back' src="imgs/cards/back.jpg" alt="">
+                    </div>
+ 
+                </div>
+ 
+                <div class="card-container" id='emperor'>
+                    <div class="card-front">
+                        <img data-num="5" data-name="emperor" class='card emperor' src="imgs/cards/emperor.jpg" alt="">
+                    </div>
+ 
+                    <div class="card-back">
+                        <img data-num="5" class='card back' src="imgs/cards/back.jpg" alt="">
+                    </div>
+ 
+                </div>
+            </div>
+        </div>
+       
+    </aside>
+    <script src='states.js'></script>
+    <script src='game.js'></script>
+</body>
+</html>
+
