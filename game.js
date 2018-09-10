@@ -1,4 +1,4 @@
-// TODO:  Add more sounds and responsive design
+// TODO:  Wiecej muzyk, zmienic zdjecie w tle, dodac copyrighty do strzalki i wrzucic na hosting
 
 const variables = {
     turnState: 'player',
@@ -185,7 +185,7 @@ function nextTurn() {
                     `
                 })
                 variables.alert.innerHTML = '';
-            }, 1500)
+            }, 2000)
             
         }
 
