@@ -93,6 +93,7 @@ body{
     font-size: 1.8rem;
     color: rgb(231, 228, 12);
     margin: 0 5rem;
+    text-align: center;
 }
  
 .about-find-heading{
@@ -330,4 +331,134 @@ body{
     width: 70%;
     margin-top: 2rem;
     justify-content: space-between;
+}
+
+.non-compatible{
+    display: none;
+    text-align: center;
+}
+
+.non-compatible-text{
+    color: yellow;
+    font-size: 2rem;
+    padding-top: 20rem;
+    margin: 0 2rem;
+}
+
+@media(max-width: 1200px){
+    html{
+        font-size: 9px;
+    }
+}
+
+@media(max-width: 900px){
+    .find-a{
+        width: 14rem;
+        height: 14rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 800px){
+    #rules p{
+        font-size: 1.4rem;
+        margin: 0 3rem 3rem 3rem;
+    }
+    .about-heading{
+        font-size: 7rem;
+    }
+
+    .about-desc{
+        font-size: 1.5rem;
+    }
+
+    .about-find-heading{
+        font-size: 4.5rem;
+    }
+}
+
+@media(max-width: 750px){
+    .find-a{
+        margin: 0 3.5rem;
+    }
+}
+
+@media(max-width: 650px){
+    .navbar-heading{
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    #rules p{
+        font-size: 1.2rem;
+        margin: 0 2rem 3rem 2rem;
+    }
+
+    .back-arrow{
+        width: 50px;
+    }
+
+    .find-a{
+        width: 12rem;
+        height: 12rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 550px){
+    .find-a{
+        margin: 0 2rem;
+    }
+
+    .about-heading{
+        font-size: 5.5rem;
+    }
+    
+    .about-find-heading{
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width: 500px){
+    html{
+        font-size: 8px;
+    }
+
+    .about-desc{
+        margin: 3rem;
+    }
+}
+
+@media(max-width: 440px){
+    .find{
+        flex-flow: column;
+    }
+
+    .find-a{
+        margin-bottom: 1rem;
+        width: 9rem;
+        height: 9rem;
+        font-size: 1.5rem;
+    }
+    .about-find-heading{
+        margin: 1rem 0;
+    }
+}
+
+@media(max-width: 400px){
+
+
+    #rules-heading{
+        font-size: 6rem;
+    }
+
+    .about-find-heading{
+        font-size: 2.6rem;
+    }
+}
+
+@media(max-height: 570px){
+    html{
+        font-size: 7px;
+    }
 }
