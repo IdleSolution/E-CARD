@@ -1,5 +1,3 @@
-// TODO:  Wiecej muzyk, zmienic zdjecie w tle, dodac copyrighty do strzalki i wrzucic na hosting
-
 const variables = {
     turnState: 'player',
     currentOpponent: 'slave',
